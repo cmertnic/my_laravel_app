@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>name</title>
+    <title>Мой не сам </title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
     <x-app-layout>  
@@ -14,6 +14,7 @@
         @yield("content")
     </main>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@1.4.7/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/jquery.inputmask.min.js"></script>
 </body>
     </x-app-layout> 
 </html>

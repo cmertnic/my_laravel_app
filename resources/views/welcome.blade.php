@@ -16,4 +16,4 @@
 
         {{ $reports->links() }} 
     @endif
-@endsection
+@endsection 

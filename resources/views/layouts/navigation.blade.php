@@ -8,9 +8,10 @@
                     <x-nav-link :href="route('main')" :active="request()->routeIs('main')">
                         {{ __('Главная') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
+                    @if(auth()->check() && auth()->user()->id == 1)<x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
                         {{ __('Админка') }}
                     </x-nav-link>
+                    @endif
                 </div>
             </div>
 

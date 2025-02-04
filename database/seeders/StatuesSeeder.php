@@ -16,10 +16,10 @@ class StatuesSeeder extends Seeder
         Statue::insert(
             [
                 [
-                    'name'=> 'Выполненно',
+                    'name'=> 'Выполняется',
                 ],
                 [
-                    'name'=> 'Выполняется',
+                    'name'=> 'Выполненно',
                 ],
                 [
                     'name'=> 'Отклонено',
