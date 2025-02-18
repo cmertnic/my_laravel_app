@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "Скутин Леонид Андреевич init"
+
+1. Перейдите на [GitHub](https://github.com) и войдите в свою учетную запись.
+2. Нажмите на кнопку "New" (или "Создать репозиторий").
+3. Введите имя вашего репозитория и выберите, будет ли он публичным или приватным.
+4. Нажмите "Create repository".
+5. указать тип https для ссылки внутри репозитория и тогда не делать 5.
+5. git remote add origin git@github.com:cmertnic/lar.git
+6. git remote set-url origin https://github.com/cmertnic/lar.git
+7. git push -u origin master

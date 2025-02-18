@@ -1,0 +1,51 @@
+https://github.com/midis-institute/laravel
+
+1) Сделать клон git clone https://github.com/midis-institute/laravel
+1.1)./run.sh  --local (git bush в файле для локальной работы)
+при обновлении php artisan migrate:reset
+php artisan migrate
+2) Обновить компосер composer update
+дублировать env
+3) Генерация ключа php artisan key:generate
+4) Открыть проект в вижуал студио
+
+php artisan make:model Post -mcr для создания
+
+1.2)./run.sh   (git bush в файле для докера)-появляется папка db_data
+1.3)загрузка бд экспортируем из myadmin перенести в папку db_data перезагружаем xamp и докер
+опять ./run.sh
+1.4)
+cd/var/lib/mysql
+mysql -uroot
+use laravel_db
+source названия файла
+cd/user/src
+ scp -r . root@91.201.54.114:/usr/src->соглашаемся,пароль gSCB98wY00rzmhZ
+7) В докере зайти в Containers
+8) Открыть проект (laravel) и зайти в хост 9000 (laravel-laravel)
+9) прописать в exec: php artisan migrate, yes
+10) Открыть проект http://localhost:9000/
+11) перед хостингом удалить vender и node modules
+запуск
+ssh <имя_пользователя>@<удаленный_хост>
+
+после
+ls -a папки 
+cd/usr/
+mkdir test-создание папки
+/cd test переходим в папку
+git bash her в папке
+scp -r . root@91.201.54.114:/usr/test->соглашаемся,
+пароль gSCB98wY00rzmhZ
+ls
+bush ./run.sh
+
+для удаления rm -rf test
+
+для перекидывания бд 
+docker exec 
+docker ps name container
+подключится к бд 
+прописать команды
+
+

@@ -1,0 +1,11 @@
+1)ssh root@91.201.54.114
+2)yes
+3)gSCB98wY00rzmhZ через shift + insert
+4)либо cd /usr/src для подключения
+либо mkdir /usr/src для создания (для поиска / и два раза tab) 
+5)если что то внутри пишем  rm  -rf /usr/src/ (для выборочной очитски rm -rf (название того что удаляем))
+6)открываем новый bush
+7)в новом bush scp -r . root@91.201.54.114:/usr/src(точка это откуда, после root это хост, а дальше это куда)
+8)yes
+9)gSCB98wY00rzmhZ через shift + insert
+10)в /usr/src вызываем ./run.sh (локально ./run.sh  --local) (для остановки docker compose down)
