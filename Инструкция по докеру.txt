@@ -1,5 +1,5 @@
 https://github.com/midis-institute/laravel
-
+php artisan make:model -m
 1) Сделать клон git clone https://github.com/midis-institute/laravel
 1.1)./run.sh  --local (git bush в файле для локальной работы)
 при обновлении php artisan migrate:reset
