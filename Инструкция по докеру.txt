@@ -1,9 +1,11 @@
 https://github.com/midis-institute/laravel
 php artisan make:model -m
-1) Сделать клон git clone https://github.com/midis-institute/laravel
-1.1)./run.sh  --local (git bush в файле для локальной работы)
+loginrequest-для  семныавторизации через логин или пароль
 при обновлении php artisan migrate:reset
 php artisan migrate
+1) Сделать клон git clone https://github.com/midis-institute/laravel
+1.1)./run.sh  --local (git bush в файле для локальной работы)
+
 2) Обновить компосер composer update
 дублировать env
 3) Генерация ключа php artisan key:generate
