@@ -5,7 +5,10 @@
 5)php artisan key:generate
 6) в env задать имя прииложениия и название bd
 7)создаём репозиторий на гитхабе
-7)
+7)(елси пишит что ты не ты работает то 
+git remote remove origin
+git remote add origin ссылка https
+)
 git init 
 git add .
 git commit -m "Скутин Леонид Андреевич init"
