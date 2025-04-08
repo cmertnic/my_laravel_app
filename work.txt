@@ -35,4 +35,8 @@ git push -u origin main
 git add .
 git commit -m "Скутин Леонид Андреевич register+login"
 git push -u origin main
+проверка на  авторизацию для навигации
+(@auth
+@else
+@endauth)
 22)  после того как админка и карточка работают  хостим
