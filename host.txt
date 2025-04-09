@@ -5,4 +5,5 @@
     ServerName dummy-host2.example.com ## <- мусор
 </VirtualHost>
 3. запустить проект (apache, mysql, php artisan serve, npm run build (!!!)
-4. скинуть свой ip
+4. перезагрузить нахер xamp
+5. скинуть свой ip
