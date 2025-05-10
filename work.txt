@@ -3,7 +3,7 @@
 3)composer update
 4)копиировать env
 5)php artisan key:generate
-6) в env задать имя прииложениия и название bd
+6) в env задать имя прииложениия и название bd (внутрри x-application-logo можно поставить лого)
 7)создаём репозиторий на гитхабе
 7)(елси пишит что ты не ты работает то 
 git remote remove origin
